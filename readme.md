@@ -8,5 +8,10 @@
 
 ```sh
 qmk setup jollyjerr/qmk_firmware -b firmware23
+
+# build
+make moonlander:tabb
+
+# flash
 qmk flash --keyboard moonlander --keymap tabb
 ```
